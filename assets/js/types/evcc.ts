@@ -244,6 +244,8 @@ export interface Loadpoint {
   effectivePlanId: number;
   effectivePlanSoc: number;
   effectivePlanTime: string | null;
+  effectivePlanPrecondition: number;
+  effectivePlanContinuous: boolean;
   effectivePriority: number;
   enableDelay: number;
   enableThreshold: number;
@@ -262,6 +264,7 @@ export interface Loadpoint {
   planEnergy: number;
   planOverrun: number;
   planPrecondition: number;
+  planContinuous: boolean;
   planProjectedEnd: string | null;
   planProjectedStart: string | null;
   planTime: string | null;
@@ -471,6 +474,8 @@ export interface Vehicle {
   limitSoc?: number;
   plan?: StaticPlan;
   repeatingPlans: RepeatingPlan[] | null;
+  planPrecondition: number;
+  planContinuous: boolean;
   title: string;
   features?: string[];
   capacity?: number;
