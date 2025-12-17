@@ -616,6 +616,7 @@
       "maximumCurrentHelp": "Turi būti didesnė nei minimali srovė.",
       "maximumPhases": "Maksimalus fazių skaičius",
       "maximumPhasesHelp": "Kiek fazių įkrovimui gali panaudoti šis automobilis? Naudojama norint apskaičiuoti reikiamą minimalų saulės energijos perteklių ir planuoti trukmę.",
+      "maximumPower": "Didžiausia įkrovimo galia",
       "minimumCurrent": "Minimali srovė",
       "minimumCurrentHelp": "Ne mažiau 6A. Nebent tiksliai žinote, ką darote.",
       "online": "Automobiliai su internetiniu API",
